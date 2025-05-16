@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>J.Neil Construction & Real Estate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #fff9f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #a0522d, #ff00ff);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #fff3f3;
+    }
+    .hero-btns button {
+      background: #39ff14;
+      color: #000;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      margin: 15px 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #a0522d;
+      margin-bottom: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      border-radius: 15px;
+    }
+    footer {
+      background-color: #a0522d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-info p, .contact-info a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>J.Neil Construction & Real Estate</h1>
+    <p>Building Dreams, Brick by Brick</p>
+    <div class="hero-btns">
+      <button>See Our Projects</button>
+      <button>Design Your Space</button>
+      <button>Contact Us</button>
+    </div>
+  </header>
+  
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="images/placeholder1.jpg" alt="Project Image" />
+      <video controls src="videos/placeholder.mp4"></video>
+      <img src="images/placeholder2.jpg" alt="Project Image" />
+    </div>
+  </section>
+  
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div>
+        <h3>Modern Home Design</h3>
+        <p>Completed in Lekki, 2024</p>
+      </div>
+      <div>
+        <h3>Office Complex</h3>
+        <p>Completed in Abuja, 2023</p>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Client Design Tool</h2>
+    <form>
+      <label>Your Idea: <input type="text" name="idea" /></label><br /><br />
+      <label>Upload Sketch: <input type="file" /></label><br /><br />
+      <label>Budget: <input type="text" name="budget" /></label><br /><br />
+      <button type="submit">Submit Design</button>
+    </form>
+  </section>
+  
+  <section>
+    <h2>Feedback</h2>
+    <form>
+      <label>Rate Us: <input type="range" min="1" max="5" /></label><br /><br />
+      <label>Comment: <textarea></textarea></label><br /><br />
+      <button type="submit">Send Feedback</button>
+    </form>
+  </section>
+  
+  <section>
+    <h2>Blog</h2>
+    <div class="grid">
+      <div>
+        <h3>How to Choose Paint Colors</h3>
+        <p>Tips from our experts on choosing colors that last and shine.</p>
+      </div>
+      <div>
+        <h3>Why Real Estate is a Smart Investment</h3>
+        <p>Explore why now is a great time to buy.</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="contact-info">
+      <p>📧 jneilconstruction@gmail.com</p>
+      <p>📞 09038775222 | 08087904738</p>
+      <p>📸 Instagram: <a href="https://instagram.com/jneil_constrution" target="_blank">@jneil_constrution</a></p>
+    </div>
+    <p>&copy; 2025 J.Neil Construction and Real Estate</p>
+  </footer>
+</body>
+</html>
